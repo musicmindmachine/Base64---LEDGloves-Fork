@@ -11,7 +11,7 @@ This library is distributed in the hope that it will be useful, but WITHOUT ANY 
 #if (defined(__AVR__) || defined(ARDUINO_ARCH_SAMD) || defined(ARDUINO_ARCH_SAM))
 #include <avr/pgmspace.h>
 #else
-#include <pgmspace.h>
+//#include <pgmspace.h>
 #endif
 
 const char PROGMEM _Base64AlphabetTable[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
